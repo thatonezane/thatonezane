@@ -7,9 +7,9 @@ If something doesn't work please contact me on discord (Astronawta#0012).
 const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
-        serverName: "BambusSMP", /*Server name*/
-        serverIp: "play.bambussmp.de", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
-        discordServerID: "1204892930431647756" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
+        serverName: "RuneSMP", /*Server name*/
+        serverIp: "play.runesmp.de", /*Server IP (if you want to add online user counter, you must have true the enable-status and enable-query of server.properties)*/
+        discordServerID: "1456115351283699765" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
     /*Admin-Team
@@ -38,45 +38,27 @@ const config = {
     */
     userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
-        leaders: "rgba(173, 216, 230, 0.5)", /*Hell blau für Owner*/
-        seniorAdmins: "rgba(255, 99, 99, 0.5)", /*Rot für Senior Admin*/
-        developers: "rgba(186, 85, 211, 0.5)", /*Lila für Developer*/
+        leaders: "rgba(157, 78, 221, 0.5)", /*Lila für Owner*/
     },
     adminTeamPage: {
         leaders: [
             {
-                inGameName: "AgriLepusmc",
+                inGameName: "LeonGrinder",
                 rank: "Owner",
                 skinUrlOrPathToFile: "",
-                rankColor: "rgba(173, 216, 230, 1)" /*Hell blau*/
-            }
-        ],
-        developers: [
-            {
-                inGameName: "AliAbii",
-                rank: "Developer",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgba(186, 85, 211, 1)" /*Lila*/
+                rankColor: "rgba(157, 78, 221, 1)" /*Lila*/
             },
             {
                 inGameName: "thatzanex",
-                rank: "Developer",
+                rank: "Owner",
                 skinUrlOrPathToFile: "",
-                rankColor: "rgba(186, 85, 211, 1)" /*Lila*/
-            }
-        ],
-        seniorAdmins: [
-            {
-                inGameName: "Bghsteiler245",
-                rank: "Senior Admin",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgba(255, 99, 99, 1)" /*Rot*/
+                rankColor: "rgba(157, 78, 221, 1)" /*Lila*/
             },
             {
-                inGameName: "LeonGrinder",
-                rank: "Senior Admin",
+                inGameName: "AliAbii",
+                rank: "Owner",
                 skinUrlOrPathToFile: "",
-                rankColor: "rgba(255, 99, 99, 1)" /*Rot*/
+                rankColor: "rgba(157, 78, 221, 1)" /*Lila*/
             }
         ]
     },
@@ -149,7 +131,7 @@ const inputWithLocationAfterSubmit = document.querySelector(".location-after-sub
 
 const getDiscordOnlineUsers = async () => {
     try {
-        const apiWidgetUrl = "https://discord.com/api/v9/invites/kRxxZPJ8Eb?with_counts=true&with_expiration=true";
+        const apiWidgetUrl = "https://discord.com/api/v9/invites/d5Ny9ujSqU?with_counts=true&with_expiration=true";
         const response = await fetch(apiWidgetUrl);
 
         if (!response.ok) {

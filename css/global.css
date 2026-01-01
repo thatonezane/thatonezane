@@ -9,20 +9,20 @@
 
 :root {
   --main-font: 'Inter', sans-serif;
-  --main-color: #4AFF6B;
+  --main-color: #9D4EDD;
   --background-color: #24272B;
   --white-color: #FFFFFF;
   --black-color: #000000;
   --description-color: #D2D0D0;
 
-  --green-color: #4AFF6B;
-  --ip-copied-background: rgba(74, 255, 107, 0.17);
-  --ip-copied-icon-background: rgba(74, 255, 107, 0.5);
+  --green-color: #9D4EDD;
+  --ip-copied-background: rgba(157, 78, 221, 0.17);
+  --ip-copied-icon-background: rgba(157, 78, 221, 0.5);
 
-  --copy-ip-button-background: rgba(74, 255, 107, 0.7);
+  --copy-ip-button-background: rgba(157, 78, 221, 0.7);
   --how-to-join-button-background: rgba(210, 208, 208, 0.2);
   --stats-background: rgba(210, 208, 208, 0.05);
-  --stat-icon-background-2: rgba(74, 255, 107, 0.5);
+  --stat-icon-background-2: rgba(157, 78, 221, 0.5);
 
   --scroll-bar: rgba(210, 208, 208, 0.3);
   --scroll-bar-hover: #555555FF;
