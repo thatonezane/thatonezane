@@ -131,7 +131,7 @@ const inputWithLocationAfterSubmit = document.querySelector(".location-after-sub
 
 const getDiscordOnlineUsers = async () => {
     try {
-        const apiWidgetUrl = "https://discord.com/api/v9/invites/d5Ny9ujSqU?with_counts=true&with_expiration=true";
+        const apiWidgetUrl = "https://discord.com/api/v9/invites/z3w9GuFwzu?with_counts=true&with_expiration=true"; 
         const response = await fetch(apiWidgetUrl);
 
         if (!response.ok) {
